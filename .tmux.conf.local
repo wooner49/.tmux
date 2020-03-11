@@ -323,3 +323,5 @@ bind s setw synchronize-pane
 
 ## No delay for escape key press
 set -sg escape-time 0
+
+#set -ag terminal-overrides ',*:cud1=\E[1B'
