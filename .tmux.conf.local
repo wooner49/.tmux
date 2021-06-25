@@ -300,7 +300,7 @@ set -g base-index 1
 setw -g automatic-rename on
 set -g set-titles on
 
-bind \ split-window -h
+bind \\ split-window -h
 
 ## Use Alt-vim keys without prefix key to switch panes
 bind -n M-Left select-pane -L
